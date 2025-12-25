@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f6f8;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 30px;
+}
+
+/* --- ESTILOS DEL BUSCADOR --- */
+.barra-busqueda {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#inputBusqueda {
+    width: 60%;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: all 0.3s ease;
+}
+
+#inputBusqueda:focus {
+    border-color: #3498db;
+    box-shadow: 0 4px 10px rgba(52, 152, 219, 0.3);
+}
+
+/* --- ESTILOS DE LA TABLA --- */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    border-radius: 8px; /* Bordes redondeados en la tabla */
+    overflow: hidden; /* Para que los bordes redondeados se vean bien */
+}
+
+th {
+    background-color: #34495e;
+    color: white;
+    padding: 3px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+
+td {
+    padding: 3px 3px;
+    border-bottom: 1px solid #ddd;
+    font-size: 10px;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
